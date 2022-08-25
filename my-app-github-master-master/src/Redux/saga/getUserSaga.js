@@ -8,8 +8,7 @@ function* getUserSaga(action) {
         const response = yield call(getUser);
         const { data } = response;
          console.log(data)
-         
-
+    
     }
     catch (err) {
         console.log(err);
